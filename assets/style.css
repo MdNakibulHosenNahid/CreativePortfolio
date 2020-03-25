@@ -1,0 +1,138 @@
+/* Project Name: Creative Portfolio
+   Version:1.0
+Table Content:
+  1.Header
+    i. Header Content
+  2.Main
+    i.Main demos
+    ii.demos
+  3.Footer */
+/* Reset CSS */
+*{
+    margin:0;
+    padding:0;
+    font-family:arial,sans-serif;
+    }
+  
+  body{
+      background:transparent;
+  }
+
+  .main-wrapper{
+      width: 1050px;
+      max-height: 224vh;
+      background: #ddd;
+      margin: 0 auto;
+  }
+  .content-wrapper{
+    width: 1000px;
+    max-height: 220vh;
+    background: #fff;
+    margin: 0 auto;
+  }
+  header{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),url("../img/Snow\ hill-3.jpg");
+    height:auto;
+    width:100%;
+    text-align:center;
+    color:white;
+    background-size:cover;
+    background-attachment:fixed;
+  }
+  .header-content{
+    padding: 250px 0px;
+  }
+  i.fab{
+    font-size:4em;
+  }
+  .header-content h3{
+    letter-spacing: 7px;
+      font-family: arial,sans-serif;
+  }
+  .header-content p{
+    font-size: 20px;
+      padding: 22px 0px;
+  }
+  .header-content button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #FF5252;
+    font-size: 18px;
+	transition:.8s ease;
+}
+.header-content button:hover{
+  background:transparent;
+  border:1px solid #FF5252;
+}
+ 
+.mainDemo{
+    width: 100%;
+    height:750px;
+    clear:both;
+  }
+  .demos{
+    height: 480px;
+    width: 100%;
+    margin: 0 auto;;
+}
+h2.midTitle{
+	text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-top: 95px;
+	clear:both;
+}
+.arloBlock {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin: 5px 11px;
+  padding: 10px 5px 40px 5px;
+  transition: .6s ease;
+}
+.arloBlock img{
+height:200px;
+width:300px;
+padding:0;
+vertical-align:baseline;
+}
+.arloBlock p{
+	font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+}
+.arloBlock:hover{
+	transform:scale(1.1);
+	box-shadow:2px 2px 3px #ddd;
+}
+
+.black {
+  height: 200px;
+  width: 300px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.black h1{
+margin-bottom:-34px;
+text-transform:uppercase;
+padding-top:80px;
+
+}
+footer{
+  max-height: 100px;
+}
+.footer{
+	  width: 100%;
+    height: 55px;
+    background: #051230;
+    text-align: center;
+}
+.footer p{
+	color:white;
+	padding-top:20px;
+}
